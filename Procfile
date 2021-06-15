@@ -1,1 +1,1 @@
-web: java -cp target/classes:target/dependency/* com.example.herokudemo.HerokudemoApplication
+web: java -Dserver.port=$PORT -cp target/classes:target/dependency/* com.example.herokudemo.HerokudemoApplication
