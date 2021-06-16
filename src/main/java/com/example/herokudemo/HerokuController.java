@@ -10,5 +10,9 @@ public class HerokuController {
     public String index() {
         return "hello";
     }
-    
+
+    @RequestMapping("/foo")
+    public String index2() {
+        return "hello";
+    }
 }
